@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 12px;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 390px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.card .profile .avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.card .avatar > img {
+    width: inherit;
+    height: inherit;
+}
+
+.card .profile .heading {
+    margin: 1.7rem 0;
+    letter-spacing: 0.8px;
+}
+
+.card .profile .heading h1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.card .profile .heading p {
+    font-size: 13px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.card .profile .desc {
+    margin: 1.5rem 0;
+}
+
+.card .profile .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card .profile .links button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card .profile .links button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
