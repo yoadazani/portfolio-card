@@ -29,8 +29,8 @@ body {
 .card .profile .avatar {
     border-radius: 50%;
     overflow: hidden;
-    width: 6rem;
-    height: 6rem;
+    width: 12rem;
+    height: 12rem;
     margin: 0 auto;
 }
 
